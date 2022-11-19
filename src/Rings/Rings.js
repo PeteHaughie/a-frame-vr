@@ -8,6 +8,7 @@ const createRings = count => {
       radiusInner={1.58}
       radiusOuter={1.6}
       width={1}
+      segmentsTheta={32 * 4}
       animation={{
         property: 'rotation',
         from: '0 0 0',
